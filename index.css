@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+nav {
+	background-color: rgba(0, 0, 0, .85);
+}
+
+p {
+	text-align: justify;
+}
+
+#landing {
+	margin-top: 10vh;
+}
+
+#projects, #contact, #tools {
+	background-color: #EEEEEE;
+}
+
+section>div>h4 {
+	background-color: #222831;
+}
+
+#contact form {
+	max-width: 500px;
+}
+
+#tools img {
+  max-width: 125px;
+}
+
+footer {
+	gap: 1rem;
+}
+
