@@ -1,43 +1,120 @@
 * {
-	margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 }
 
 
-nav {
-	background-color: rgba(0, 0, 0, .85);
+h3 {
+	background: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+
 }
 
-p {
+.navbar, footer {
+	background: #1A1A1A !important;
+}
+
+
+.nav-link {
+	transition: transform 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
+}
+
+.nav-link:hover {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#landing h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#landing .text-md-left {
 	text-align: justify;
 }
 
-#landing {
-	margin-top: 10vh;
+.btn-dark {
+	border: 2px solid #1A1A1A;
 }
 
-#projects, #contact, #tools {
-	background-color: #EEEEEE;
+.btn-light {
+	border: 2px solid black;
+	background-color: white;
 }
 
-section>div>h4 {
-	background-color: #222831;
+#projects {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%), url(./images/wallpaper.jpg);
 }
 
-#contact form {
-	max-width: 500px;
+#projects p {
+	text-align: justify;
+}
+
+#projects .p-3 {
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#projects img {
+	 transition: transform 0.3s ease, box-shadow 0.3s ease;
+	 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#projects img:hover {
+	transform: scale(1.1);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#projects h5 {
+	text-align: center;
+	font-weight: bold;
+}
+
+#projects h6 {
+	text-align: center;
+}
+
+#contact h3 {
+	background-color: #1A1A1A;
+	color: white;
+}
+
+#contact h4 {
+	text-decoration: underline;
+}
+
+#contact .p-3 {
+	background-color: white;
+	border: 4px solid #1A1A1A;
+	border-radius: 10px;
+}
+
+#contact img {
+	max-width: 50px;
+}
+
+#contact iframe {
+	border-radius: 10px;
+}
+
+#tools {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%), url(./images/wallpaper.jpg);
+}
+
+#tools .p-3 {
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#tools h4 {
+	text-decoration: underline;
 }
 
 #tools img {
-  max-width: 125px;
+	max-width: 100px;
 }
-
-footer {
-	gap: 1rem;
-}
-
